@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Thanhs-MBP.net.fpt" name="scenarios.AppiumTest" tests="4" failures="1" timestamp="1 Feb 2017 13:40:40 GMT" time="46.551" errors="0">
+  <testcase name="countSynopsisText" time="10.422" classname="scenarios.AppiumTest"/>
+  <testcase name="setReminder" time="3.761" classname="scenarios.AppiumTest"/>
+  <testcase name="addFavorite" time="11.791" classname="scenarios.AppiumTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at scenarios.AppiumTest.addFavorite(AppiumTest.java:64)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+... Removed 32 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="removeFavorite" time="13.344" classname="scenarios.AppiumTest"/>
+</testsuite>
